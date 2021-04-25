@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="User Role" max_length="40" name="x_58872_needit_user_role" sizeclass="3" type="collection">
+        <element label="Age" mandatory="true" max_length="10" name="age" type="string"/>
+        <element label="Email" mandatory="true" max_length="255" name="email" type="string"/>
+        <element choice="3" default="ncit" display="true" label="Group" mandatory="true" max_length="40" name="group" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Ncit" sequence="0" value="ncit"/>
+                <element inactive_on_update="false" label="Nttdata" sequence="1" value="nttdata"/>
+            </choice>
+        </element>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" mandatory="true" max_length="40" name="number" type="string"/>
+        <element label="User Name" mandatory="true" max_length="40" name="user_name" type="string"/>
+    </element>
+</database>

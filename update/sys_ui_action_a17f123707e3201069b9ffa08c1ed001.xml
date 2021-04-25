@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name>submittask</action_name>
+        <active>true</active>
+        <client>true</client>
+        <client_script_v2><![CDATA[function onClick(g_form) {
+
+}]]></client_script_v2>
+        <comments/>
+        <condition/>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_button_v2>false</form_button_v2>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style/>
+        <hint/>
+        <isolate_script>true</isolate_script>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <messages/>
+        <name>SubmitTask</name>
+        <onclick>onClick()</onclick>
+        <order>100</order>
+        <script><![CDATA[function onClick() {
+
+    var getEmailAddr = new GlideAjax('SendUserEmail');
+
+    getEmailAddr.addParam('sysparm_name', 'getEmail');
+    getEmailAddr.addParam('sysparm_userName', g_form.getValue('user_name'));
+
+    // Send the request to the server
+    getEmailAddr.getXML(populateEmailField);
+
+    // When the response is back from the server
+    function populateEmailField(response) {
+        // Extract the email address from the response, clear any value from the email field, 
+        // set new value in the email field
+        //var sendEmailTrueOrFalse = response.responseXML.documentElement.getAttribute("answer");
+        //g_form.clearValue('user_name');
+        //g_form.setValue('user_name', emailFromScriptInclude);
+        //g_form.addInfoMessage("Send Email Successful123!!!");
+        g_form.save();
+        //         g_form.addInfoMessage("Send Email Successful123123!!!");
+        //alert("ageAfter = " + ageAfter);
+        //g_form.addInfoMessage("Send Email Successful123123!!!");
+    }
+    //         setTimeout(function() {
+    //             onClick();
+    //         }, 100000);
+    //     g_form.addInfoMessage("Send Email Successful123456!!!");
+}]]></script>
+        <show_insert>true</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-04-23 06:17:01</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a17f123707e3201069b9ffa08c1ed001</sys_id>
+        <sys_mod_count>139</sys_mod_count>
+        <sys_name>SubmitTask</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_ui_action_a17f123707e3201069b9ffa08c1ed001</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-04-25 08:19:52</sys_updated_on>
+        <table>x_58872_needit_user_role</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>true</ui16_compatible>
+    </sys_ui_action>
+</record_update>

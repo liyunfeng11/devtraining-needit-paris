@@ -6,13 +6,13 @@
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
-        <compiler_build/>
+        <compiler_build>glide-paris-06-24-2020__patch6-01-19-2021</compiler_build>
         <copied_from/>
         <copied_from_name/>
         <description/>
         <internal_name>jizentutinoticeymd</internal_name>
         <label_cache>[{"name":"a47a864b-b16d-4702-9c1d-ec494e0eb995.variable1","label":"4➛variable1","reference_display":"variable1","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"41acd2fe-f296-48df-8a83-79281b7ce5d5"}},{"name":"a47a864b-b16d-4702-9c1d-ec494e0eb995.variable","label":"4➛variable","reference_display":"variable","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"1a5bdebc-b08c-4c30-9d55-822f0e331723"}},{"name":"bf0c1fac-18f2-4003-9ce8-0e7dcbddf911.error_message","label":"1➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"bf0c1fac-18f2-4003-9ce8-0e7dcbddf911.status","label":"1➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"bf0c1fac-18f2-4003-9ce8-0e7dcbddf911.Table","label":"1➛UserInfo Table","reference":"x_58872_needit_userinfo","reference_display":"UserInfo","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"bf0c1fac-18f2-4003-9ce8-0e7dcbddf911.Record","label":"1➛UserInfo Record","reference":"x_58872_needit_userinfo","reference_display":"UserInfo","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1c227b37-0ca2-4b50-a946-05e334b2386e.email","label":"6➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4c256829-4d44-40db-a836-031b57a57625.email","label":"4➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7aa9eed8-6e10-4b12-a7d1-16aabbd7951e.variable","label":"3➛variable","reference_display":"variable","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"1a5bdebc-b08c-4c30-9d55-822f0e331723"}},{"name":"Daily_1.run_start_time","label":"Trigger➛Run Start Time","type":"glide_date_time","base_type":"glide_date_time","attributes":{"test_input_hidden":"true"}},{"name":"9da872aa-f8f7-49b6-b848-5e6efd560cdc.Count","label":"2➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9da872aa-f8f7-49b6-b848-5e6efd560cdc.Table","label":"2➛Property107 Table","reference":"x_58872_needit_property107","reference_display":"Property107","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9da872aa-f8f7-49b6-b848-5e6efd560cdc.Records","label":"2➛Property107 Records","reference":"x_58872_needit_property107","reference_display":"Property107","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"789c0c07-b97c-4c0f-aeea-dfaea111836a.item","label":"3➛Property107 Record","reference":"x_58872_needit_property107","reference_display":"Property107","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"789c0c07-b97c-4c0f-aeea-dfaea111836a.item.value","label":"3➛Property107 Record➛Value","reference":"","reference_display":"Value","type":"string","base_type":"string","parent_table_name":"x_58872_needit_property107","column_name":"value"},{"name":"1e903074-6d88-4d35-a0ba-14d51627bd35.variable","label":"3➛variable","reference_display":"variable","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"1a5bdebc-b08c-4c30-9d55-822f0e331723"}},{"name":"27a49841-9ba5-4747-a178-1f5834bd42ff.variable","label":"3➛variable","reference_display":"variable","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"1a5bdebc-b08c-4c30-9d55-822f0e331723"}},{"name":"882fbd25-f910-4242-bb80-7bf31f18eb07.variable","label":"3➛variable","reference_display":"variable","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"1a5bdebc-b08c-4c30-9d55-822f0e331723"}},{"name":"ab14560a-2038-41e3-ab1e-795631e45974.variable","label":"4➛variable","reference_display":"variable","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"1a5bdebc-b08c-4c30-9d55-822f0e331723"}},{"name":"789c0c07-b97c-4c0f-aeea-dfaea111836a.item.number","label":"3➛Property107 Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_58872_needit_property107","column_name":"number"},{"name":"579618f8-05f1-4d33-9d27-e7ad5febb5f9.variable","label":"4➛variable","reference_display":"variable","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"1a5bdebc-b08c-4c30-9d55-822f0e331723"}},{"name":"a46dc945-64e2-41f7-b25a-68cb7a13b6fa.variable","label":"4➛variable","reference_display":"variable","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"1a5bdebc-b08c-4c30-9d55-822f0e331723"}},{"name":"bf0c1fac-18f2-4003-9ce8-0e7dcbddf911.Record.number","label":"1➛UserInfo Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_58872_needit_userinfo","column_name":"number"},{"name":"bf0c1fac-18f2-4003-9ce8-0e7dcbddf911.Record.stopdate","label":"1➛UserInfo Record➛Stopdate","reference":"","reference_display":"Stopdate","type":"glide_date","base_type":"glide_date","parent_table_name":"x_58872_needit_userinfo","column_name":"stopdate"}]</label_cache>
-        <latest_snapshot>525e0ccb07a7201069b9ffa08c1ed073</latest_snapshot>
+        <latest_snapshot>31d79448073b201069b9ffa08c1ed0d2</latest_snapshot>
         <master_snapshot>525e0ccb07a7201069b9ffa08c1ed073</master_snapshot>
         <name>JizentutiNoticeYMD</name>
         <natlang/>
@@ -107,7 +107,7 @@
         <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
         <action_type_parent/>
         <comment/>
-        <compiled_snapshot/>
+        <compiled_snapshot>43400a1587003300663ca1bb36cb0b4b</compiled_snapshot>
         <display_text/>
         <flow display_value="JizentutiNoticeYMD">650b9efe0723201069b9ffa08c1ed007</flow>
         <order>2</order>
@@ -116,10 +116,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-04-20 03:44:32</sys_created_on>
         <sys_id>2c60eef20763201069b9ffa08c1ed0d8</sys_id>
-        <sys_mod_count>54</sys_mod_count>
+        <sys_mod_count>56</sys_mod_count>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-04-20 11:45:04</sys_updated_on>
+        <sys_updated_on>2021-04-23 15:00:26</sys_updated_on>
         <ui_id>9da872aa-f8f7-49b6-b848-5e6efd560cdc</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=2c60eef20763201069b9ffa08c1ed0d8"/>
@@ -171,7 +171,7 @@
         <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
         <action_type_parent/>
         <comment/>
-        <compiled_snapshot/>
+        <compiled_snapshot>c1806bf4a70323008299b39f087901cb</compiled_snapshot>
         <display_text/>
         <flow display_value="JizentutiNoticeYMD">650b9efe0723201069b9ffa08c1ed007</flow>
         <order>6</order>
@@ -180,10 +180,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-04-20 07:47:36</sys_created_on>
         <sys_id>4508d33e07e3201069b9ffa08c1ed0c9</sys_id>
-        <sys_mod_count>22</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-04-20 11:45:04</sys_updated_on>
+        <sys_updated_on>2021-04-23 15:00:26</sys_updated_on>
         <ui_id>1c227b37-0ca2-4b50-a946-05e334b2386e</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=4508d33e07e3201069b9ffa08c1ed0c9"/>
@@ -406,7 +406,7 @@
         <action_type display_value="CalcYMD">11f3363207a3201069b9ffa08c1ed0b1</action_type>
         <action_type_parent/>
         <comment/>
-        <compiled_snapshot/>
+        <compiled_snapshot>11f3363207a3201069b9ffa08c1ed0b1</compiled_snapshot>
         <display_text/>
         <flow display_value="JizentutiNoticeYMD">650b9efe0723201069b9ffa08c1ed007</flow>
         <order>4</order>
@@ -415,10 +415,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-04-20 09:05:10</sys_created_on>
         <sys_id>99c9637a0727201069b9ffa08c1ed08b</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-04-20 11:45:04</sys_updated_on>
+        <sys_updated_on>2021-04-23 15:00:26</sys_updated_on>
         <ui_id>a47a864b-b16d-4702-9c1d-ec494e0eb995</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=99c9637a0727201069b9ffa08c1ed08b"/>
@@ -518,7 +518,7 @@
         <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
         <action_type_parent/>
         <comment/>
-        <compiled_snapshot/>
+        <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
         <display_text/>
         <flow display_value="JizentutiNoticeYMD">650b9efe0723201069b9ffa08c1ed007</flow>
         <order>1</order>
@@ -527,10 +527,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-04-20 08:33:55</sys_created_on>
         <sys_id>eb922bf20727201069b9ffa08c1ed030</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_mod_count>20</sys_mod_count>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-04-20 11:45:04</sys_updated_on>
+        <sys_updated_on>2021-04-23 15:00:26</sys_updated_on>
         <ui_id>bf0c1fac-18f2-4003-9ce8-0e7dcbddf911</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=eb922bf20727201069b9ffa08c1ed030"/>
@@ -614,7 +614,7 @@
         <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
         <action_type_parent/>
         <comment/>
-        <compiled_snapshot/>
+        <compiled_snapshot>43400a1587003300663ca1bb36cb0b4b</compiled_snapshot>
         <display_text/>
         <flow display_value="JizentutiNoticeYMD">650b9efe0723201069b9ffa08c1ed007</flow>
         <order>2</order>
@@ -623,10 +623,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-04-20 03:44:32</sys_created_on>
         <sys_id>2c60eef20763201069b9ffa08c1ed0d8</sys_id>
-        <sys_mod_count>54</sys_mod_count>
+        <sys_mod_count>56</sys_mod_count>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-04-20 11:45:04</sys_updated_on>
+        <sys_updated_on>2021-04-23 15:00:26</sys_updated_on>
         <ui_id>9da872aa-f8f7-49b6-b848-5e6efd560cdc</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=2c60eef20763201069b9ffa08c1ed0d8"/>
@@ -692,7 +692,7 @@
         <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
         <action_type_parent/>
         <comment/>
-        <compiled_snapshot/>
+        <compiled_snapshot>c1806bf4a70323008299b39f087901cb</compiled_snapshot>
         <display_text/>
         <flow display_value="JizentutiNoticeYMD">650b9efe0723201069b9ffa08c1ed007</flow>
         <order>6</order>
@@ -701,10 +701,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-04-20 07:47:36</sys_created_on>
         <sys_id>4508d33e07e3201069b9ffa08c1ed0c9</sys_id>
-        <sys_mod_count>22</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-04-20 11:45:04</sys_updated_on>
+        <sys_updated_on>2021-04-23 15:00:26</sys_updated_on>
         <ui_id>1c227b37-0ca2-4b50-a946-05e334b2386e</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=4508d33e07e3201069b9ffa08c1ed0c9"/>
@@ -859,7 +859,7 @@
         <action_type display_value="CalcYMD">11f3363207a3201069b9ffa08c1ed0b1</action_type>
         <action_type_parent/>
         <comment/>
-        <compiled_snapshot/>
+        <compiled_snapshot>11f3363207a3201069b9ffa08c1ed0b1</compiled_snapshot>
         <display_text/>
         <flow display_value="JizentutiNoticeYMD">650b9efe0723201069b9ffa08c1ed007</flow>
         <order>4</order>
@@ -868,10 +868,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-04-20 09:05:10</sys_created_on>
         <sys_id>99c9637a0727201069b9ffa08c1ed08b</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-04-20 11:45:04</sys_updated_on>
+        <sys_updated_on>2021-04-23 15:00:26</sys_updated_on>
         <ui_id>a47a864b-b16d-4702-9c1d-ec494e0eb995</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=99c9637a0727201069b9ffa08c1ed08b"/>
@@ -929,7 +929,7 @@
         <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
         <action_type_parent/>
         <comment/>
-        <compiled_snapshot/>
+        <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
         <display_text/>
         <flow display_value="JizentutiNoticeYMD">650b9efe0723201069b9ffa08c1ed007</flow>
         <order>1</order>
@@ -938,10 +938,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-04-20 08:33:55</sys_created_on>
         <sys_id>eb922bf20727201069b9ffa08c1ed030</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_mod_count>20</sys_mod_count>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-04-20 11:45:04</sys_updated_on>
+        <sys_updated_on>2021-04-23 15:00:26</sys_updated_on>
         <ui_id>bf0c1fac-18f2-4003-9ce8-0e7dcbddf911</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=eb922bf20727201069b9ffa08c1ed030"/>
@@ -1173,9 +1173,9 @@
     <sys_flow_trigger_plan action="delete_multiple" query="plan_id=650b9efe0723201069b9ffa08c1ed007^sys_idNOT IN535e4ccb07a7201069b9ffa08c1ed018"/>
     <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
         <binding_strategy>com.snc.process_flow.engine.binding.RunAlways</binding_strategy>
-        <plan/>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"535e4ccb07a7201069b9ffa08c1ed018","name":"plan"}}</plan>
         <plan_id>650b9efe0723201069b9ffa08c1ed007</plan_id>
-        <snapshot>525e0ccb07a7201069b9ffa08c1ed073</snapshot>
+        <snapshot>31d79448073b201069b9ffa08c1ed0d2</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-04-20 11:45:03</sys_created_on>
         <sys_domain>global</sys_domain>
