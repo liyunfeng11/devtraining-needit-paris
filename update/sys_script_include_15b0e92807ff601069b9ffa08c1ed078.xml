@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_58872_needit.ScreenTransferURL</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>ScreenTransferURL</name>
+        <script><![CDATA[var ScreenTransferURL = Class.create();
+
+ScreenTransferURL.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+    getChildViewURL: function() {
+        //         gs.info("1111");
+        //         gs.info("2222 = " + this.getParameter('sysparm_number'));
+        //         gs.info(gs.getUrlOnStack());
+        //         gs.info("screentransfer");
+        //         var uri = g_form.getActionName().getGlideURI();
+        //         gs.info("screentransfer123");
+        //         var path = 'x_58872_needit_user_role_list.do';
+        //         gs.info("path = " + path);
+
+        //         uri.set('sysparm_view', 'Screen_Jump');
+        //         gs.info("uri = " + uri);
+        //         var c = uri.toString(path);
+        //         gs.info("c = " + c);
+        var gURI = new GlideURI();
+        gURI.set('sysparm_query', 'https://dev109378.service-now.com/nav_to.do?uri=x_58872_needit_user_role.do?sys_id=e88175770763201069b9ffa08c1ed0ed%26sysparm_view=Screen_Jump');
+        var fileString = gURI.get('sysparm_query');
+        return fileString;
+    },
+    type: 'ScreenTransferURL'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-04-25 09:37:03</sys_created_on>
+        <sys_id>15b0e92807ff601069b9ffa08c1ed078</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_name>ScreenTransferURL</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_script_include_15b0e92807ff601069b9ffa08c1ed078</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-04-25 12:00:48</sys_updated_on>
+    </sys_script_include>
+</record_update>
