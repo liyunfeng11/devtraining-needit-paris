@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_view_table_field">
+    <sys_db_view_table_field action="DELETE">
+        <field>partner_subcharger</field>
+        <sys_class_name>sys_db_view_table_field</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-10 12:13:51</sys_created_on>
+        <sys_id>67b4dfd10700b01069b9ffa08c1ed04c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>partner_subcharger</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_db_view_table_field_67b4dfd10700b01069b9ffa08c1ed04c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-10 12:13:51</sys_updated_on>
+        <table>x_58872_needit_uim_syozoku_soshiki_joho</table>
+        <view_table display_value="x_58872_needit_uim_syozoku_soshiki_joho">62c9ce19070c701069b9ffa08c1ed0dd</view_table>
+    </sys_db_view_table_field>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>14b7fba01b17ec1032182f8dee4bcb17</instance_id>
+        <instance_name>dev109378</instance_name>
+        <name>sys_db_view_table_field_67b4dfd10700b01069b9ffa08c1ed04c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_view_table_field"><sys_db_view_table_field action="INSERT_OR_UPDATE"><field>partner_subcharger</field><sys_class_name>sys_db_view_table_field</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-05-10 12:13:51</sys_created_on><sys_id>67b4dfd10700b01069b9ffa08c1ed04c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>partner_subcharger</sys_name><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_db_view_table_field_67b4dfd10700b01069b9ffa08c1ed04c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-05-10 12:13:51</sys_updated_on><table>x_58872_needit_uim_syozoku_soshiki_joho</table><view_table display_value="x_58872_needit_uim_syozoku_soshiki_joho">62c9ce19070c701069b9ffa08c1ed0dd</view_table></sys_db_view_table_field></record_update>]]></payload>
+        <payload_hash>-645642599</payload_hash>
+        <record_name>partner_subcharger</record_name>
+        <reverted_from/>
+        <source>4c8125410713201069b9ffa08c1ed035</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-10 12:13:51</sys_created_on>
+        <sys_id>d4c413150700b01069b9ffa08c1ed0d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1795632aa260000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-10 12:13:51</sys_updated_on>
+        <type>View Field</type>
+        <update_guid>10c413158e00b0105bdb218eb29873d2</update_guid>
+        <update_guid_history>10c413158e00b0105bdb218eb29873d2:-645642599</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-12 09:15:09</sys_created_on>
+        <sys_db_object display_value="" name="sys_db_view_table_field">sys_db_view_table_field</sys_db_object>
+        <sys_id>0cf2980fa65d4752824a4ecbefd6c5e9</sys_id>
+        <sys_metadata>67b4dfd10700b01069b9ffa08c1ed04c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>partner_subcharger</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent display_value="x_58872_needit_uim_syozoku_soshiki_joho">62c9ce19070c701069b9ffa08c1ed0dd</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_db_view_table_field_67b4dfd10700b01069b9ffa08c1ed04c</sys_update_name>
+        <sys_update_version display_value="sys_db_view_table_field_67b4dfd10700b01069b9ffa08c1ed04c">d4c413150700b01069b9ffa08c1ed0d2</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-12 09:15:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
