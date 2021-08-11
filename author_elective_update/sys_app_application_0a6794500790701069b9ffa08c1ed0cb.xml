@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="DELETE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name/>
+        <order>100</order>
+        <roles>x_58872_needit.uim_riyousya_ikatu_upload_user,admin</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-19 06:09:06</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0a6794500790701069b9ffa08c1ed0cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>admin</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_app_application_0a6794500790701069b9ffa08c1ed0cb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-19 06:09:06</sys_updated_on>
+        <title>admin</title>
+        <view_name/>
+    </sys_app_application>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>14b7fba01b17ec1032182f8dee4bcb17</instance_id>
+        <instance_name>dev109378</instance_name>
+        <name>sys_app_application_0a6794500790701069b9ffa08c1ed0cb</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application"><sys_app_application action="INSERT_OR_UPDATE"><active>true</active><category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category><description/><device_type>browser</device_type><hint/><name/><order>100</order><roles>x_58872_needit.uim_riyousya_ikatu_upload_user,admin</roles><sys_class_name>sys_app_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-05-19 06:09:06</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>0a6794500790701069b9ffa08c1ed0cb</sys_id><sys_mod_count>0</sys_mod_count><sys_name>admin</sys_name><sys_overrides/><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_app_application_0a6794500790701069b9ffa08c1ed0cb</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-05-19 06:09:06</sys_updated_on><title>admin</title><view_name/></sys_app_application></record_update>]]></payload>
+        <payload_hash>1535190926</payload_hash>
+        <record_name>admin</record_name>
+        <reverted_from/>
+        <source>4c8125410713201069b9ffa08c1ed035</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-19 06:09:06</sys_created_on>
+        <sys_id>bc9794500790701069b9ffa08c1ed05f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>179833df6130000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-19 06:09:06</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>f497945023907010d413faa49731065f</update_guid>
+        <update_guid_history>f497945023907010d413faa49731065f:1535190926</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="admin">fa8918d00790701069b9ffa08c1ed061</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-19 06:17:42</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_application">sys_app_application</sys_db_object>
+        <sys_id>89804221589540a0be654509bc778900</sys_id>
+        <sys_metadata>0a6794500790701069b9ffa08c1ed0cb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>admin</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_app_application_0a6794500790701069b9ffa08c1ed0cb</sys_update_name>
+        <sys_update_version display_value="sys_app_application_0a6794500790701069b9ffa08c1ed0cb">bc9794500790701069b9ffa08c1ed05f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-19 06:17:42</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

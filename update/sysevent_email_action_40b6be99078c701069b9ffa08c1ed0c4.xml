@@ -6,7 +6,7 @@
         <advanced_condition/>
         <affected_field_on_event/>
         <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
-        <collection>x_58872_needit_riyosha</collection>
+        <collection>x_58872_needit_uim_syozoku_soshiki_joho</collection>
         <condition/>
         <content_type>text/html</content_type>
         <default_interval/>
@@ -35,7 +35,16 @@
         <item_table/>
         <mandatory>false</mandatory>
         <message/>
-        <message_html><![CDATA[<p>Dear&nbsp; 123,</p>
+        <message_html><![CDATA[<p>User Sys ID Common ID: ${user_sys_id.common_id}</p>
+<p>User Sys ID First Kanji Name(short): ${user_sys_id.first_kanji_name_short}</p>
+<p>User Sys ID Last Kanji Name(short): ${user_sys_id.last_kanji_name_short}</p>
+<p>User Sys ID Notice Address: ${user_sys_id.notice_address}</p>
+<p>User Sys ID Number: ${user_sys_id.number}</p>
+<p>User Sys ID Start Date: ${user_sys_id.start_date}</p>
+<p>User Sys ID Status: ${user_sys_id.status}</p>
+<p>User Sys ID Sys ID: ${user_sys_id.sys_id}</p>
+<p>User Sys ID User ID: ${user_sys_id.user_id}</p>
+<p>User Sys ID User Type A: ${user_sys_id.user_type_a}<br /><br />Partner Subcharger Notice Address: ${partner_subcharger.notice_address}<br /><br /><br /><br /><br /><br /><br /><br /><br />${mail_script:AddCC_DBView} <br /><br />Dear&nbsp; 123,</p>
 <p>Send Email to you</p>]]></message_html>
         <message_list/>
         <message_text/>
@@ -43,9 +52,9 @@
         <omit_watermark>false</omit_watermark>
         <order>100</order>
         <push_message_only>false</push_message_only>
-        <recipient_fields/>
+        <recipient_fields>partner_charger.notice_address</recipient_fields>
         <recipient_groups/>
-        <recipient_users>6816f79cc0a8016401c5a33be04be441,yunfeng11.li@nttdata.com</recipient_users>
+        <recipient_users/>
         <reply_to/>
         <send_self>true</send_self>
         <sms_alternate/>
@@ -58,7 +67,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>40b6be99078c701069b9ffa08c1ed0c4</sys_id>
-        <sys_mod_count>23</sys_mod_count>
+        <sys_mod_count>32</sys_mod_count>
         <sys_name>Send Email Test</sys_name>
         <sys_overrides/>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
@@ -66,12 +75,10 @@
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sysevent_email_action_40b6be99078c701069b9ffa08c1ed0c4</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-05-11 10:58:00</sys_updated_on>
+        <sys_updated_on>2021-07-29 07:26:54</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>
         <weight>0</weight>
-        <x_58872_needit_cc/>
-        <x_58872_needit_notice_address/>
     </sysevent_email_action>
 </record_update>

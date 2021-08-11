@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Uim Organization Info" max_length="40" name="x_58872_needit_uim_organization_info" sizeclass="0" type="collection">
+        <element label="Company identifier" max_length="32" name="company_identifier" reference="x_58872_needit_uim_company_information" type="reference"/>
+        <element label="Layer" max_length="2" name="layer" type="integer"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Organization abbreviation" max_length="384" name="organization_abbreviation" type="string"/>
+        <element label="Organization acronym" max_length="384" name="organization_acronym" type="string"/>
+        <element label="Organization code" max_length="32" name="organization_code" type="string"/>
+        <element label="Organization name" max_length="384" name="organization_name" type="string"/>
+        <element label="Organization name Kana" max_length="384" name="organization_name_kana" type="string"/>
+        <element label="Parent organization code" max_length="32" name="parent_organization_code" reference="x_58872_needit_uim_organization_info" type="reference"/>
+        <element label="Parent organization name" max_length="384" name="parent_organization_name" type="string"/>
+        <element label="Sort order" max_length="20" name="sort_order" type="integer"/>
+        <element label="Status" max_length="32" name="status" type="string"/>
+        <index name="index">
+            <element name="company_identifier"/>
+        </index>
+        <index name="index2">
+            <element name="parent_organization_code"/>
+        </index>
+    </element>
+</database>

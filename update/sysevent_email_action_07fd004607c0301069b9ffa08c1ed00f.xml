@@ -71,7 +71,5 @@
         <template/>
         <type>email</type>
         <weight>0</weight>
-        <x_58872_needit_cc>bbb@aa.com</x_58872_needit_cc>
-        <x_58872_needit_notice_address display_value="Available">7e102ddd0788701069b9ffa08c1ed011</x_58872_needit_notice_address>
     </sysevent_email_action>
 </record_update>

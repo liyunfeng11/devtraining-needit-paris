@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><database>
-    <element attributes="no_labels=true,update_synch=true" audit="true" extends="sysrule" label="Notification" max_length="40" name="sysevent_email_action" sizeclass="281" text_index="true" type="collection">
-        <element attributes="edge_encryption_enabled=true" label="Cc:" max_length="1000" name="x_58872_needit_cc" type="string"/>
-        <element attributes="encode_utf8=false" label="notice_address" max_length="32" name="x_58872_needit_notice_address" reference="x_58872_needit_uim_riyousha_joho" type="reference"/>
-        <index name="index">
-            <element name="x_58872_needit_notice_address"/>
-        </index>
-    </element>
-</database>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Uim Riyousya Upload Error Info" max_length="40" name="x_58872_needit_uim_riyousya_upload_error_info" sizeclass="11" type="collection">
+        <element label="Common ID" max_length="40" name="common_id" type="string"/>
+        <element label="End Date" max_length="40" name="end_date" type="glide_date"/>
+        <element label="Error Information" max_length="1000" name="error_information" type="string"/>
+        <element label="First Kanji Name(short)" max_length="256" name="first_kanji_name_short" type="string"/>
+        <element label="Last Kanji Name(short)" max_length="256" name="last_kanji_name_short" type="string"/>
+        <element label="Notice Address" max_length="256" name="notice_address" type="string"/>
+        <element label="Status" max_length="40" name="status" type="string"/>
+        <element label="Upload ID" max_length="32" name="upload_id" type="string"/>
+        <element label="User Type" max_length="18" name="user_type" type="string"/>
+        <element label="User Type A" max_length="40" name="user_type_a" type="string"/>
+    </element>
+</database>

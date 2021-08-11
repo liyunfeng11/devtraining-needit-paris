@@ -71,7 +71,5 @@
         <template/>
         <type>email</type>
         <weight>0</weight>
-        <x_58872_needit_cc/>
-        <x_58872_needit_notice_address/>
     </sysevent_email_action>
 </record_update>

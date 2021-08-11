@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Uim Syozoku Soshiki Joho" max_length="40" name="x_58872_needit_uim_syozoku_soshiki_joho" sizeclass="2" type="collection">
+    <element label="Uim Syozoku Soshiki Joho" max_length="40" name="x_58872_needit_uim_syozoku_soshiki_joho" sizeclass="3" type="collection">
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" mandatory="true" max_length="40" name="number" type="string"/>
         <element label="Partner Charger" max_length="32" name="partner_charger" reference="x_58872_needit_uim_riyousha_joho" type="reference" use_dependent_field="true"/>
         <element label="Partner Subcharger" max_length="32" name="partner_subcharger" reference="x_58872_needit_uim_riyousha_joho" type="reference" use_dependent_field="true"/>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Uim Company information" max_length="40" name="x_58872_needit_uim_company_information" sizeclass="0" type="collection">
+        <element label="Company identifier" max_length="32" name="company_identifier" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Uim Riyousya Ikatu Upload" max_length="40" name="x_58872_needit_uim_riyousya_ikatu_upload" sizeclass="3" type="collection">
+        <element label="Company identifier" max_length="32" name="company_identifier" type="string"/>
+        <element label="Login ID" max_length="10" name="login_id" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Status" max_length="10" name="status" type="string"/>
+    </element>
+</database>

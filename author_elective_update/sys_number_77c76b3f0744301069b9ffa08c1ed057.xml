@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="DELETE">
+        <category display_value="" name="x_58872_needit_uim_organization_upload_set_row">x_58872_needit_uim_organization_upload_set_row</category>
+        <maximum_digits>7</maximum_digits>
+        <number>3000</number>
+        <prefix>UIM</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-18 08:01:55</sys_created_on>
+        <sys_id>77c76b3f0744301069b9ffa08c1ed057</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>UIM</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_number_77c76b3f0744301069b9ffa08c1ed057</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-18 08:01:55</sys_updated_on>
+    </sys_number>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>14b7fba01b17ec1032182f8dee4bcb17</instance_id>
+        <instance_name>dev109378</instance_name>
+        <name>sys_number_77c76b3f0744301069b9ffa08c1ed057</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number"><sys_number action="INSERT_OR_UPDATE"><category display_value="" name="x_58872_needit_uim_organization_upload_set_row">x_58872_needit_uim_organization_upload_set_row</category><maximum_digits>7</maximum_digits><number>3000</number><prefix>UIM</prefix><sys_class_name>sys_number</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-05-18 08:01:55</sys_created_on><sys_id>77c76b3f0744301069b9ffa08c1ed057</sys_id><sys_mod_count>0</sys_mod_count><sys_name>UIM</sys_name><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_number_77c76b3f0744301069b9ffa08c1ed057</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-05-18 08:01:55</sys_updated_on></sys_number></record_update>]]></payload>
+        <payload_hash>-1296777720</payload_hash>
+        <record_name>UIM</record_name>
+        <reverted_from/>
+        <source>4c8125410713201069b9ffa08c1ed035</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-18 08:01:56</sys_created_on>
+        <sys_id>b7c76b3f0744301069b9ffa08c1ed06f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1797e7ee7440000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-18 08:01:56</sys_updated_on>
+        <type>Number</type>
+        <update_guid>ffc76b3fe2443010e96db746cd75596e</update_guid>
+        <update_guid_history>ffc76b3fe2443010e96db746cd75596e:-1296777720</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-18 08:53:05</sys_created_on>
+        <sys_db_object display_value="" name="sys_number">sys_number</sys_db_object>
+        <sys_id>02d8ea0e9d9a46e8800a2f4f3f77bc40</sys_id>
+        <sys_metadata>77c76b3f0744301069b9ffa08c1ed057</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>UIM</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent display_value="">691563bb0744301069b9ffa08c1ed0c0</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_number_77c76b3f0744301069b9ffa08c1ed057</sys_update_name>
+        <sys_update_version display_value="sys_number_77c76b3f0744301069b9ffa08c1ed057">b7c76b3f0744301069b9ffa08c1ed06f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-18 08:53:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Uim Riyousya Upload Data" max_length="40" name="x_58872_needit_uim_riyousya_upload_data" sizeclass="0" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=u_common_id" label="Common ID" max_length="40" name="u_common_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=u_end_date" label="End date" max_length="40" name="u_end_date" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=u_first_kanji_name_short" label="First kanji name short" max_length="40" name="u_first_kanji_name_short" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=u_last_kanji_name_short" label="Last kanji name short" max_length="40" name="u_last_kanji_name_short" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=u_notice_address" label="Notice address" max_length="40" name="u_notice_address" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=u_status" label="Status" max_length="40" name="u_status" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=u_user_type" label="User type" max_length="40" name="u_user_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=u_user_type_a" label="User type a" max_length="40" name="u_user_type_a" type="string"/>
+    </element>
+</database>

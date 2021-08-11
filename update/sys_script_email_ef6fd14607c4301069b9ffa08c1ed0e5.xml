@@ -8,33 +8,37 @@
     /* Optional GlideRecord */
     event) {
     //gs.info("current.sys_id = " + current.sys_id);
-    var rec = new GlideRecord('x_58872_needit_riyosha');
-	rec.addQuery('t3_sys_id', current.sys_id);
-    rec.query();
-    while (rec.next()) {
-		//gs.info(rec.getValue('t3_sys_id') + ' t3 exists');
-        //gs.info(rec.getValue('t3_notice_address') + ' t3 exists');
-		//gs.info(rec.getValue('t4_sys_id') + ' t4 exists');
-		//gs.info(rec.getValue('t4_notice_address') + ' t4 exists');
+    //var rec = new GlideRecord('x_58872_needit_riyosha');
+    //rec.addQuery('t3_sys_id', current.sys_id);
+    //rec.query();
+    //while (rec.next()) {
+    //gs.info(rec.getValue('t3_sys_id') + ' t3 exists');
+    //gs.info(rec.getValue('t3_notice_address') + ' t3 exists');
+    //gs.info(rec.getValue('t4_sys_id') + ' t4 exists');
+    //gs.info(rec.getValue('t4_notice_address') + ' t4 exists');
+
+    //var a = rec.getValue('t3_last_kanji_name_short') + rec.getValue('t3_first_kanji_name_short') + ' ' + rec.getValue('t3_notice_address');
+    //gs.info("a = " + a);
+    //current.setValue('notice_address', a);
+    //gs.info("notice_address = " + current.getValue('notice_address'));
+    //email.addAddress("cc", rec.getValue('t4_notice_address') + '', rec.getValue('t4_last_kanji_name_short') + ' ' + //rec.getValue('t4_first_kanji_name_short'));
+    //}
+	gs.info("current.partner_subcharger.notice_address:" + current.partner_subcharger.notice_address);
+    email.addAddress('cc', current.partner_subcharger.notice_address + '');
 	
-		var a = rec.getValue('t3_last_kanji_name_short') + rec.getValue('t3_first_kanji_name_short') + ' ' + rec.getValue('t3_notice_address');
-		//gs.info("a = " + a);
-		current.setValue('notice_address', a);
-		gs.info("notice_address = " + current.getValue('notice_address'));
-		email.addAddress("cc", rec.getValue('t4_notice_address') + '', rec.getValue('t4_last_kanji_name_short') + ' ' + rec.getValue('t4_first_kanji_name_short'));
-    }
+    //+ '', current.getValue('t4_last_kanji_name_short') + ' ' + rec.getValue('t4_first_kanji_name_short'));
 })(current, template, email, email_action, event);]]></script>
         <sys_class_name>sys_script_email</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-05-12 11:37:29</sys_created_on>
         <sys_id>ef6fd14607c4301069b9ffa08c1ed0e5</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name>AddCC_DBView</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_script_email_ef6fd14607c4301069b9ffa08c1ed0e5</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-05-12 12:39:23</sys_updated_on>
+        <sys_updated_on>2021-07-29 07:45:03</sys_updated_on>
     </sys_script_email>
 </record_update>

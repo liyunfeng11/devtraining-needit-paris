@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Uim Syozoku Soshiki Upload" max_length="40" name="x_58872_needit_uim_syozoku_soshiki_upload" sizeclass="0" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Partner Charger" max_length="32" name="partner_charger" reference="x_58872_needit_uim_riyousya_upload" type="reference"/>
+        <element label="Partner Subcharger" max_length="32" name="partner_subcharger" reference="x_58872_needit_uim_riyousya_upload" type="reference"/>
+        <element label="Relation Type" max_length="3" name="relation_type" type="string"/>
+        <element label="Status" max_length="2" name="status" type="string"/>
+        <element label="User Sys ID" max_length="32" name="user_sys_id" reference="x_58872_needit_uim_riyousya_upload" type="reference"/>
+        <element label="User Type" max_length="18" name="user_type" type="string"/>
+        <index name="index">
+            <element name="partner_charger"/>
+        </index>
+        <index name="index2">
+            <element name="user_sys_id"/>
+        </index>
+        <index name="index3">
+            <element name="partner_subcharger"/>
+        </index>
+    </element>
+</database>
